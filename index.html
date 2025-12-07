@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Para Fernanda ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- audio: pon tu musica.mp3 en la misma carpeta -->
+  <audio id="bgMusic" src="musica.mp3" preload="auto"></audio>
+
+  <!-- pantalla inicial -->
+  <div id="startScreen" class="centered">
+    <div id="clickHeart" title="Click here">
+      <div class="heartBig">❤️</div>
+      <div class="clickLabel">Click here</div>
+    </div>
+  </div>
+
+  <!-- contenido principal -->
+  <div id="main" class="hidden">
+    <div class="panel">
+      <div class="visual">
+        <svg id="treeSVG" viewBox="0 0 420 420" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+
+      <div class="info">
+        <h1>Para Fernanda</h1>
+        <p class="subtitle">Un detalle único hecho por Emmanuel</p>
+
+        <div id="messageWrap">
+          <div id="message"></div>
+        </div>
+
+        <div id="timer" class="timer">— días —:—:—:—</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
